@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASCO - Portfolio</title>
+    <style>
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        header {
+            background-color: black;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-out forwards;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+
+        section {
+            padding: 40px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            color: #007bff;
+            font-size: 28px;
+            opacity: 0; 
+            animation: fadeIn 1s ease-out forwards; 
+            animation-delay: 0.5s; 
+        }
+
+        section p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            opacity: 0; 
+            animation: fadeIn 1s ease-out forwards; 
+            animation-delay: 1s; 
+        }
+
+        section .image {
+            margin-top: 20px;
+        }
+
+        section .image img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 80px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images (1).jpeg" alt="WASCO Logo" class="logo">
+            <h1>Water and Sewerage Company (WASCO)</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact .html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We at WASCO are dedicated to providing high-quality water and wastewater services to our customers. Our team consists of experienced professionals who are passionate about ensuring the availability of clean water and efficient wastewater management.</p>
+            <p>Our mission is to contribute to the well-being of communities by delivering sustainable water solutions. We strive to be at the forefront of innovation in the water sector, continuously improving our services and adopting eco-friendly practices.</p>
+            <div class="image">
+                <img src="image2.jpeg" alt="Team at WASCO">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 WASCO. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
